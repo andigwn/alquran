@@ -42,7 +42,11 @@ class HomeView extends GetView<HomeController> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               const Text(
-                "Assalamualaikum",
+                "Hi!",
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+              ),
+              const Text(
+                "Selamat Datang di Al-Qur'an Apps",
                 style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
               ),
               GetBuilder<HomeController>(
